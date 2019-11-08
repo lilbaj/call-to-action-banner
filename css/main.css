@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Roboto, sans-serif";
+  font-family: "Roboto", sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,15 +21,14 @@ body {
 .card {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: absolute;
-  bottom: 3.5rem;
-  top: 3.5rem;
-  left: 50%;
+  bottom: 7rem;
+  top: 7rem;
+  left: 49.5%;
   margin: 0;
   padding: 0;
   transform: translateX(-50%);
-  max-width: 45em;
 }
 
 .img-flex {
@@ -37,8 +36,13 @@ body {
   width: 100%;
 }
 
+.mecha .img-flex {
+  width: 87%;
+}
+
 .content {
-  padding-left: 3rem;
+  padding-left: 1rem;
+  max-width: 24.6em;
 }
 
 h2 {
@@ -46,14 +50,13 @@ h2 {
   font-size: 3rem;
   margin: 0;
   padding: 0;
-  max-width: 25em;
   line-height: 1.2;
 }
 
 p {
   font-size: 1.5rem;
   padding: 0;
-  margin: .75em 0;
+  margin: .4em 0 .75em;
 }
 
 .btn-big {
